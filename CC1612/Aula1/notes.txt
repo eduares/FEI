@@ -1,3 +1,5 @@
+Soma simples
+
 A=input()
 B=input()
 X=int(A)+int(B)
@@ -10,3 +12,14 @@ str = texto (sempre entre aspas)
 FUNÇÕES (métodos)
 input() = Recebe o valor de fora(usuário) 
 print() = Exibe o valor na tela
+
+--------------
+
+r=int(input())
+r=(r*r)
+p=3.14
+a=float(r*p)
+print("a =",a)
+
+FUNÇÕES (métodos)
+Float = Reconhecimento de número com vírgula
