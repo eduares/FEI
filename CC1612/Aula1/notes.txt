@@ -39,3 +39,19 @@ V=float(input())
 D=V*0.15
 TOTAL=D+SF
 print("TOTAL = R$ %.2f" % TOTAL) 
+_______________________________________________________________________________________________________________________________________
+Uso do comando IF 
+
+print("Inserir valor do produto:")
+preco=float(input())
+print("Inseria valor da media dos produtos:")
+media=float(input())
+if(preco<30.00) and (media<500.00):
+ preco=preco+(preco*0.20)
+ print("Valor=", preco)
+if(preco>=30.00) and (media>=500.00) and (media<=1200.00):
+ preco=preco+(preco*0.15)
+ print("Valor=", preco)
+if(preco>=80.00) and (media>=1200.00):
+  preco=preco-(preco*0.20)
+  print("Valor=", preco)
