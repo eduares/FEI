@@ -1,1 +1,25 @@
 
+var valoraleatorio = Math.floor(Math.random() * 100)+1
+document.getElementById("carregar").onclick = function () {
+    var number = document.getElementById("num1").value
+    var classe1="Por favor, inserir um número maior!"
+    var classe2="Por favor, inserir um número menor!"
+    var classe3="Acertou"
+if(valoraleatorio>number){
+    document.getElementById("resultado").innerHTML = classe1
+}
+if(valoraleatorio<number){
+    document.getElementById("resultado").innerHTML = classe2
+}
+if(number==valoraleatorio){
+    document.getElementById("resultado").innerHTML = classe3
+}
+
+}
+
+Um pouco sobre JavaScript:
+Sempre lembrar de pensar nas variáveis como uma caixa a ser preenchida. Como no caso acima, o "random" prencheu o valor aleatório,
+que difere do Python em alguns sentidos, visto que eu iria criar uma função "random" ao invés de criar uma varíavel com está função.
+O document, seria um documento que estária no no "HTML", quando insiro "getElementById" significa que estou pegando um elemento espe-
+cífico desse "documento" e considerando ele como algum "valor". Posso criar váriaveis como informação ser imprimida na tela e usar o
+"InnerHTML" para expor a mesma.
