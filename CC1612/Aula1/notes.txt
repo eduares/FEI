@@ -55,3 +55,10 @@ if(preco>=30.00) and (media>=500.00) and (media<=1200.00):
 if(preco>=80.00) and (media>=1200.00):
   preco=preco-(preco*0.20)
   print("Valor=", preco)
+  -----------------------------------------------------------------------------------------------------------------------------
+a=input()
+b=input()
+c=input()
+lista=[a,b,c]
+lista.sort()
+print(lista)
