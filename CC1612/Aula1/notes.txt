@@ -62,3 +62,18 @@ c=input()
 lista=[a,b,c]
 lista.sort()
 print(lista)
+
+-------------------------------------------------------------------------------------------------------------------------------
+import math
+alturadaPare=float(input("Por favor, inserir altura da parede:"))
+angulo=float(input("por favor inserir ângulo:"))
+math.radians(angulo)
+math.sin(angulo)
+escala=alturadaPare/math.sin(math.radians(angulo))
+print("Medida da escala:", escala)
+importar módulo - conjunto de funções 
+math.sin
+math.cos
+está função serve para converter valores em radianos
+math.radians
+Converte para graus  
