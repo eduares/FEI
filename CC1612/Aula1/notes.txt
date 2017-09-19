@@ -77,3 +77,25 @@ math.cos
 está função serve para converter valores em radianos
 math.radians
 Converte para graus  
+__________________________________________________________________________________________________________________________________
+import random
+random=random.randint(1,20)
+print("Olá, qual o seu nome ?")
+name=input()
+print("Iae "+name+", adivinhe o numero de uma 1 a 20 ?")
+aleatorio=0 
+while(aleatorio<6):
+  numero=int(input())
+  aleatorio=aleatorio+1
+  print("Tente mais uma vez !")
+  if(random>numero):
+    print("o número precisa ser aumentado")
+  if(random<numero):
+    print("O numero precisa ser diminuido")
+  if(numero==random):
+    break
+if(numero==random):
+    print("Acertou")
+else:
+      print("Errou")
+print("Parabéns "+name+"","Você acertou em", aleatorio," duas tentativas" )
