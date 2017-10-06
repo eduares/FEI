@@ -99,3 +99,18 @@ if(numero==random):
 else:
       print("Errou")
 print("Parabéns "+name+"","Você acertou em", aleatorio," duas tentativas" )
+________________________________________________________________________________________________________________________________________
+N=[]; L=[]
+for i in range(20):
+  y=int(input())
+  N.append(y)
+  L.append(y)
+
+for i in range(10):
+  N[i] = L[19-i]
+  N[19-i] = L[i]
+
+for i in range(20):
+  print("N[%i] = %i"%(i,N[i]))
+  Vetores
+  Uso do append - Ele coloca o que tive entre parênteses a primeira posição disponível 
